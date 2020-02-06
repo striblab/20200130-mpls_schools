@@ -1,0 +1,49 @@
+﻿name,address,latitude,longitude,model1,model2,model3,model4,model5,students,capacity,capacity_pct
+Andersen ,"1098 Andersen Ln, Minneapolis, MN 55407",44.953346,-93.258701,nonmag,middle,middle,middle,elementary,817,1533,0.53
+Anthony ,"5757 Irving Ave S, Minneapolis, MN 55419",44.89846,-93.29894,nonmag,nonmag,nonmag,nonmag,nonmag,741,850,0.87
+Anwatin ,"256 Upton Ave S, Minneapolis, MN 55405",44.973634,-93.316537,middle,nonmag,nonmag,nonmag,nonmag,573,896,0.64
+Armatage ,"2501 W 56th St, Minneapolis, MN 55410",44.901015,-93.311396,elementary,nonmag,nonmag,nonmag,nonmag,620,575,1.08
+Bancroft ,"1315 E 38th St, Minneapolis, MN 55407",44.933814,-93.255521,elementary,nonmag,nonmag,nonmag,nonmag,560,598,0.94
+Barton ,"4237 Colfax Ave S, Minneapolis, MN 55409",44.925452,-93.291221,k8,nonmag,nonmag,nonmag,nonmag,707,660,1.07
+Bethune ,"919 Emerson Ave N, Minneapolis, MN 55411",44.987652,-93.294751,nonmag,elementary,elementary,elementary,elementary,317,519,0.61
+Bryn Mawr ,"252 Upton Ave S, Minneapolis, MN 55405",44.973946,-93.316967,nonmag,nonmag,nonmag,nonmag,nonmag,348,615,0.57
+Burroughs ,"1601 W 50th St, Minneapolis, MN 55419",44.911929,-93.30044317,nonmag,nonmag,nonmag,nonmag,nonmag,738,647,1.14
+Cityview ,"3350 N 4th St, Minneapolis, MN 55412",45.01601267,-93.28407317,nonmag,nonmag,nonmag,nonmag,nonmag,345,712,0.48
+Dowling ,"3900 W River Pkwy, Minneapolis, MN 55406",44.932246,-93.205386,elementary,nonmag,nonmag,nonmag,nonmag,486,485,1.00
+Emerson ,"421 Spruce Pl, Minneapolis, MN 55403",44.96957,-93.280825,elementary,elementary,elementary,elementary,elementary,515,431,1.19
+Field,"4645 4th Ave S, Minneapolis, MN 55419",44.9188,-93.269626,nonmag,nonmag,nonmag,nonmag,nonmag,502,476,1.05
+Folwell ,"3611 20th Ave S, Minneapolis, MN 55407",44.93704333,-93.24331667,k8,nonmag,nonmag,nonmag,nonmag,834,863,0.97
+Franklin ,"1501 Aldrich Ave N, Minneapolis, MN 55412",44.993971,-93.290336,nonmag,middle,middle,middle,elementary,337,655,0.51
+Green Central ,"3416 4th Ave S, Minneapolis, MN 55408",44.94044,-93.27121,nonmag,nonmag,elementary,nonmag,elementary,357,565,0.63
+Hale,"5330 13th Ave S, Minneapolis, MN 55417",44.90646968,-93.25635349,nonmag,nonmag,nonmag,nonmag,nonmag,656,539,1.22
+Hall ,"1601 Aldrich Ave N, Minneapolis, MN 55411",44.995805,-93.289955,elementary,elementary,elementary,elementary,elementary,237,460,0.52
+HIA ,"1501 N 30th Ave, Minneapolis, MN 55411",45.010596,-93.298293,nonmag,nonmag,nonmag,nonmag,nonmag,568,751,0.76
+Hiawatha,"4201 42nd Ave S, Minneapolis, MN 55406",44.92675717,-93.21208617,nonmag,nonmag,nonmag,nonmag,nonmag,249,284,0.88
+Howe,"3733 43rd Ave S, Minneapolis, MN 55406",44.93473967,-93.21127067,nonmag,nonmag,nonmag,nonmag,nonmag,224,267,0.84
+Jefferson ,"1200 W 26th St, Minneapolis, MN 55405",44.955887,-93.295083,nonmag,middle,middle,middle,elementary,439,815,0.54
+Jenny Lind ,"5025 Bryant Ave N, Minneapolis, MN 55430",45.046686,-93.292309,nonmag,nonmag,nonmag,nonmag,nonmag,383,535,0.72
+Justice Page ,"1 W 49th St, Minneapolis, MN 55419",44.913284,-93.27961,nonmag,nonmag,nonmag,nonmag,nonmag,842,1135,0.74
+Kenny ,"5720 Emerson Ave S, Minneapolis, MN 55419",44.899026,-93.295551,nonmag,nonmag,nonmag,nonmag,nonmag,468,413,1.13
+Kenwood ,"2013 Penn Ave S, Minneapolis, MN 55405",44.961459,-93.308023,nonmag,nonmag,nonmag,nonmag,nonmag,395,431,0.92
+Lake Harriet Lower,"4030 Chowen Ave S, Minneapolis, MN 55410",44.929179,-93.326246,nonmag,nonmag,nonmag,nonmag,nonmag,541,480,1.13
+Lake Harriet Upper,"912 Vincent Ave S, Minneapolis, MN 55410",44.9332,-93.316475,nonmag,nonmag,nonmag,nonmag,nonmag,607,615,0.99
+Lake Nokomis-Keewaydin ,"5209 30th Ave S, Minneapolis, MN 55417",44.908298,-93.228891,nonmag,nonmag,nonmag,nonmag,nonmag,472,561,0.84
+Lake Nokomis-Wenonah ,"5625 23rd Ave S, Minneapolis, MN 55417",44.900937,-93.238332,nonmag,nonmag,nonmag,nonmag,nonmag,292,284,1.03
+Laney ,"3333 Penn Ave N, Minneapolis, MN 55412",45.01595,-93.30894,nonmag,nonmag,nonmag,nonmag,nonmag,485,753,0.64
+Loring ,"2600 N 44th Ave, Minneapolis, MN 55412",45.035469,-93.313057,nonmag,nonmag,nonmag,nonmag,nonmag,419,373,1.12
+Lyndale ,"312 W 34th St, Minneapolis, MN 55408",44.94188833,-93.28304167,nonmag,nonmag,nonmag,nonmag,nonmag,518,701,0.74
+Marcy ,"415 4th Ave SE, Minneapolis, MN 55414",44.98663,-93.24979333,k8,elementary,elementary,elementary,elementary,697,679,1.03
+Nellie Stone Johnson ,"807 N 27th Ave, Minneapolis, MN 55411",45.007026,-93.290286,nonmag,nonmag,nonmag,nonmag,nonmag,394,713,0.55
+Northeast ,"2955 Hayes St NE, Minneapolis, MN 55418",45.021755,-93.233928,nonmag,nonmag,nonmag,nonmag,nonmag,473,843,0.56
+Northrop ,"4315 S 31st Ave, Minneapolis, MN 55406",44.92454667,-93.22687167,nonmag,nonmag,nonmag,nonmag,nonmag,488,395,1.24
+Olson ,"1607 51st Ave N, Minneapolis, MN 55430",45.046551,-93.3012,nonmag,nonmag,nonmag,nonmag,nonmag,377,640,0.59
+Pillsbury ,"2250 NE Garfield St, Minneapolis, MN 55418",45.010775,-93.234096,nonmag,nonmag,nonmag,nonmag,nonmag,334,582,0.57
+Pratt ,"66 Malcolm Ave SE, Minneapolis, MN 55414",44.969003,-93.214034,nonmag,nonmag,nonmag,nonmag,nonmag,319,284,1.12
+Sanford ,"3524 42nd Ave S, Minneapolis, MN 55406",44.938662,-93.213363,nonmag,nonmag,nonmag,nonmag,nonmag,954,1016,0.94
+Seward ,"2309 S 28th Ave, Minneapolis, MN 55406",44.960112,-93.230807,k8,elementary,elementary,k8,k8,864,905,0.95
+Sheridan ,"1201 University Ave NE, Minneapolis, MN 55413",44.99931667,-93.262895,elementary,elementary,elementary,elementary,elementary,264,737,0.36
+Sullivan ,"3100 E 28th St, Minneapolis, MN 55406",44.952647,-93.225432,nonmag,elementary,elementary,k8,k8,510,1230,0.41
+Waite Park ,"1800 34th Ave NE, Minneapolis, MN 55418",45.030127,-93.234599,nonmag,nonmag,nonmag,nonmag,nonmag,431,485,0.89
+Webster ,"25 5th St NE, Minneapolis, MN 55413",44.98909299,-93.25351776,nonmag,nonmag,nonmag,nonmag,nonmag,355,467,0.76
+Whittier ,"315 W 26th St, Minneapolis, MN 55404",44.954626,-93.28394,elementary,nonmag,nonmag,nonmag,nonmag,517,598,0.86
+Windom ,"5821 Wentworth Ave, Minneapolis, MN 55419",44.896912,-93.280097,elementary,nonmag,nonmag,nonmag,nonmag,610,503,1.21
