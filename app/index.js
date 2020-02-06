@@ -99,7 +99,9 @@ import locations from '../sources/locations.json';
 
 var center = [-93.268508, 44.969751];
 var zoom = 10;
+var zoom_m = 10.3;
 var minzoom = 10;
+var maxzoom = 12;
 
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic3RhcnRyaWJ1bmUiLCJhIjoiY2sxYjRnNjdqMGtjOTNjcGY1cHJmZDBoMiJ9.St9lE8qlWR5jIjkPYd3Wqw';
@@ -107,8 +109,9 @@ var map1 = new mapboxgl.Map({
 container: 'mapper1',
 style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
 center: center,
-zoom: zoom,
-minZoom: minzoom
+zoom: zoom_m,
+minZoom: minzoom,
+maxZoom: maxzoom
 });
  
 
@@ -163,7 +166,7 @@ map1.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
 
@@ -194,8 +197,11 @@ map1.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
 
@@ -207,7 +213,8 @@ var map2 = new mapboxgl.Map({
     style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
     center: center,
     zoom: zoom,
-    minZoom: minzoom
+    minZoom: minzoom,
+    maxZoom: maxzoom
     });
      
     var geocoder2 = new MapboxGeocoder({
@@ -262,7 +269,7 @@ map2.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
 
@@ -294,8 +301,11 @@ map2.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
 
@@ -308,7 +318,8 @@ var map3 = new mapboxgl.Map({
     style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
     center: center,
     zoom: zoom,
-    minZoom: minzoom
+    minZoom: minzoom,
+    maxZoom: maxzoom
     });
  
 var geocoder3 = new MapboxGeocoder({
@@ -362,7 +373,7 @@ map3.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
     
@@ -393,8 +404,11 @@ map3.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
 
@@ -406,7 +420,8 @@ var map4 = new mapboxgl.Map({
     style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
     center: center,
     zoom: zoom,
-    minZoom: minzoom
+    minZoom: minzoom,
+    maxZoom: maxzoom
     });
  
 var geocoder4 = new MapboxGeocoder({
@@ -460,7 +475,7 @@ map4.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
 
@@ -491,8 +506,11 @@ map4.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
 
@@ -504,7 +522,8 @@ var map5 = new mapboxgl.Map({
     style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
     center: center,
     zoom: zoom,
-    minZoom: minzoom
+    minZoom: minzoom,
+    maxZoom: maxzoom
     });
  
 var geocoder5 = new MapboxGeocoder({
@@ -558,7 +577,7 @@ map5.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
 
@@ -589,8 +608,11 @@ map5.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
     
@@ -601,8 +623,9 @@ var map6 = new mapboxgl.Map({
     container: 'mapper6',
     style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
     center: center,
-    zoom: zoom,
-    minZoom: minzoom
+    zoom: zoom_m,
+    minZoom: minzoom,
+    maxZoom: maxzoom
     });
  
 var geocoder6 = new MapboxGeocoder({
@@ -656,7 +679,7 @@ map6.on('load', function() {
             'fill-antialias' : true,
             'fill-opacity': 0.7,
             'fill-color':'#cccccc',
-            'fill-outline-color': '#000000'
+            'fill-outline-color': '#ffffff'
          }
     }, 'settlement-label');
 
@@ -683,7 +706,7 @@ map6.on('load', function() {
             0.9,
             '#2C3942',
             1,
-            '#ffffff'
+            '#2C3942'
             ]
         }
         });
@@ -693,8 +716,11 @@ map6.on('load', function() {
             'type': 'symbol',
             'source': 'locations',
             'layout': {
-            'text-size': 5,
-            'text-field': ['get', 'name'],
+                'text-anchor': 'center',
+                'text-offset': [0, 1.6],
+                'text-allow-overlap': false,
+                'text-size': 5,
+                'text-field': ['get', 'name'],
             }
          });
     
@@ -702,12 +728,12 @@ map6.on('load', function() {
 });
 
 $(".reset").on("click", function(){
-    map1.flyTo({center: center, zoom: zoom});
+    map1.flyTo({center: center, zoom: zoom_m});
     map2.flyTo({center: center, zoom: zoom});
     map3.flyTo({center: center, zoom: zoom});
     map4.flyTo({center: center, zoom: zoom});
     map5.flyTo({center: center, zoom: zoom});
-    map6.flyTo({center: center, zoom: zoom});
+    map6.flyTo({center: center, zoom: zoom_m});
     $('.mapboxgl-ctrl-geocoder--input').val('');
     $('.mapboxgl-marker').hide();
 });
