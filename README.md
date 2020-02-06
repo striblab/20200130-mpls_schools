@@ -1,6 +1,6 @@
-# 20200124 Duluth Schools
+# 20200207 Minneapolis Schools
 
-Analysis of competing proposals to redistrict Duluth&#39;s schools
+Analysis of competing proposals to redistrict Minneapolis schools
 
 ## Data
 

@@ -136,5 +136,22 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
 }
 
 
+.legend {
+  font-size:0.6em;
+}
+
+#mainlegend {
+  margin-top:25px;
+  font-size:0.8em;
+  font-weight:bold;
+  text-align:center;
+}
+
+.legend div {
+  height:10px;
+  width:40px;
+  display:inline-block;
+}
+
 
 

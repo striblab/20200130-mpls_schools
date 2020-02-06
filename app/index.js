@@ -597,12 +597,117 @@ map5.on('load', function() {
 
 });
 
+var map6 = new mapboxgl.Map({
+    container: 'mapper6',
+    style: 'mapbox://styles/startribune/ck1b7427307bv1dsaq4f8aa5h',
+    center: center,
+    zoom: zoom,
+    minZoom: minzoom
+    });
+ 
+var geocoder6 = new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    countries: 'us',
+    filter: function(item) {
+        return item.context
+            .map(function(i) {
+            return (
+            i.id.split('.').shift() === 'region' &&
+            i.text === 'Minnesota'
+            );
+            })
+            .reduce(function(acc, cur) {
+            return acc || cur;
+            });
+        },
+    marker: {
+    color: 'gray'
+    },
+    mapboxgl: mapboxgl
+});
+
+map6.scrollZoom.disable();
+map6.dragRotate.disable();
+// map5.doubleClickZoom.disable();
+map6.touchZoomRotate.disableRotation();
+map6.addControl(new mapboxgl.NavigationControl());
+ 
+document.getElementById('geocoder5').appendChild(geocoder6.onAdd(map6));
+
+map6.on('load', function() {
+
+    map6.addSource('nb1', {
+        type: 'geojson',
+        data: scenario1
+      });
+
+    map6.addSource('locations', {
+        type: 'geojson',
+        data: locations
+      });
+
+      map6.addLayer({
+        'id': 'nb-layer6',
+        'interactive': true,
+        'source': 'nb1',
+        'layout': {},
+        'type': 'fill',
+         'paint': {
+            'fill-antialias' : true,
+            'fill-opacity': 0.7,
+            'fill-color':'#cccccc',
+            'fill-outline-color': '#000000'
+         }
+    }, 'settlement-label');
+
+     map6.addLayer({
+        'id': 'locations6',
+        'type': 'circle',
+        'source': 'locations',
+        'paint': {
+            'circle-radius': 5,
+        'circle-color': [
+            'interpolate',
+            ['linear'],
+            ['get', 'capacity_pct'],
+            0.3,
+            '#DAE1E7',
+            0.4,
+            '#C6D1D9',
+            0.5,
+            '#A8B9C5',
+            0.6,
+            '#7F98AA',
+            0.8,
+            '#556E7F',
+            0.9,
+            '#2C3942',
+            1,
+            '#ffffff'
+            ]
+        }
+        });
+
+        map6.addLayer({
+            'id': 'poi-labels',
+            'type': 'symbol',
+            'source': 'locations',
+            'layout': {
+            'text-size': 5,
+            'text-field': ['get', 'name'],
+            }
+         });
+    
+
+});
+
 $(".reset").on("click", function(){
     map1.flyTo({center: center, zoom: zoom});
     map2.flyTo({center: center, zoom: zoom});
     map3.flyTo({center: center, zoom: zoom});
     map4.flyTo({center: center, zoom: zoom});
     map5.flyTo({center: center, zoom: zoom});
+    map6.flyTo({center: center, zoom: zoom});
     $('.mapboxgl-ctrl-geocoder--input').val('');
     $('.mapboxgl-marker').hide();
 });
