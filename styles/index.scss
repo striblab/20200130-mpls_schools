@@ -146,10 +146,21 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
 .legend2 {
   font-size:0.6em;
   text-align:center;
-  padding:15px;
 }
 
 .legend2 div {
+  height:10px;
+  width:40px;
+  display:inline-block;
+}
+
+.legend3 {
+  font-size:0.6em !important;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.legend3 div {
   height:10px;
   width:40px;
   display:inline-block;

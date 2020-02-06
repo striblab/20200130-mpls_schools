@@ -176,6 +176,8 @@ map1.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'match',
             ['get', 'model1'],
@@ -280,6 +282,8 @@ map2.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'match',
             ['get', 'model2'],
@@ -383,6 +387,8 @@ map3.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'match',
             ['get', 'model3'],
@@ -485,6 +491,8 @@ map4.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'match',
             ['get', 'model4'],
@@ -587,6 +595,8 @@ map5.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'match',
             ['get', 'model5'],
@@ -689,24 +699,24 @@ map6.on('load', function() {
         'source': 'locations',
         'paint': {
             'circle-radius': 5,
+            'circle-stroke-width': 0.5,
+            'circle-stroke-color': '#333333',
         'circle-color': [
             'interpolate',
             ['linear'],
             ['get', 'capacity_pct'],
             0.3,
-            '#DAE1E7',
-            0.4,
-            '#C6D1D9',
+            '#F7F7F7',
             0.5,
-            '#A8B9C5',
-            0.6,
-            '#7F98AA',
-            0.8,
-            '#556E7F',
+            '#D9D3EB',
+            0.7,
+            '#B6AED4',
             0.9,
-            '#2C3942',
+            '#62597D',
             1,
-            '#2C3942'
+            '#4A4061',
+            1.1,
+            '#333333'
             ]
         }
         });
