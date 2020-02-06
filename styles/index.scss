@@ -100,11 +100,7 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
   font-size: 0.8em;
 }
 
-.legend {
-  font-size:0.8em;
-  text-align:center;
-  padding:15px;
-}
+
 
 .dot {
   height: 12px;
@@ -137,8 +133,29 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
 
 
 .legend {
+  font-size:0.8em;
+  text-align:center;
+  padding:15px;
   font-size:0.6em;
 }
+
+.legend div {
+  display:inline-block;
+}
+
+
+.legend2 {
+  font-size:0.6em;
+  text-align:center;
+  padding:15px;
+}
+
+.legend2 div {
+  height:10px;
+  width:40px;
+  display:inline-block;
+}
+
 
 #mainlegend {
   margin-top:25px;
@@ -147,11 +164,11 @@ $selector-wrapper: '.strib-styles.ssa.ssb.ssc';
   text-align:center;
 }
 
-.legend div {
-  height:10px;
-  width:40px;
-  display:inline-block;
+#mainlegend2 {
+  margin-top:25px;
+  font-size:0.8em;
+  font-weight:bold;
+  text-align:center;
 }
-
 
 
